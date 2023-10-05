@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8df8362f-08c0-4913-9940-8d59947de2ee" name="Changes" comment="Add Leetcode problem 1 Two Sum&#10;&#10;Memory Usage: 42.8 MB&#10;Runtime: 50 ms">
+    <list default="true" id="8df8362f-08c0-4913-9940-8d59947de2ee" name="Changes" comment="Review Leetcode problem 1 Two Sum&#10;&#10;Memory Usage: 32.46 MB&#10;Runtime: 1 ms">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays_hashing/GroupAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrays_hashing/GroupAnagramTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays_hashing/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays_hashing/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/arrays_hashing/TwoSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrays_hashing/TwoSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TwoSumTest.test4">
+  <component name="RunManager" selected="JUnit.GroupAnagramTest">
     <configuration name="ContainsDuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JCrackingCode" />
       <extension name="coverage">
@@ -65,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainsDuplicateTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JCrackingCode" />
       <extension name="coverage">
         <pattern>
@@ -74,9 +75,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrays_hashing" />
-      <option name="MAIN_CLASS_NAME" value="arrays_hashing.ContainsDuplicateTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="arrays_hashing.GroupAnagramTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GroupAnagramTest" />
         <item itemvalue="JUnit.TwoSumTest.test4" />
         <item itemvalue="JUnit.TwoSumTest" />
         <item itemvalue="JUnit.ValidAnagramTest" />
         <item itemvalue="JUnit.ContainsDuplicateTest" />
-        <item itemvalue="JUnit.ContainsDuplicateTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +198,8 @@
     <MESSAGE value="Add Leetcode problem 217 Contains Duplicate&#10;&#10;Memory Usage: 55.2 MB&#10;Runtime: 10 ms" />
     <MESSAGE value="Add Leetcode problem 242 Valid Anagram&#10;&#10;Memory Usage: 43.3 MB&#10;Runtime: 3 ms" />
     <MESSAGE value="Add Leetcode problem 1 Two Sum&#10;&#10;Memory Usage: 42.8 MB&#10;Runtime: 50 ms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Leetcode problem 1 Two Sum&#10;&#10;Memory Usage: 42.8 MB&#10;Runtime: 50 ms" />
+    <MESSAGE value="Review Leetcode problem 1 Two Sum&#10;&#10;Memory Usage: 32.46 MB&#10;Runtime: 1 ms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Review Leetcode problem 1 Two Sum&#10;&#10;Memory Usage: 32.46 MB&#10;Runtime: 1 ms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
