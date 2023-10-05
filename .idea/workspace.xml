@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8df8362f-08c0-4913-9940-8d59947de2ee" name="Changes" comment="Review Leetcode problem 1 Two Sum&#10;&#10;Memory Usage: 32.46 MB&#10;Runtime: 1 ms">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays_hashing/GroupAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/arrays_hashing/GroupAnagramTest.java" afterDir="false" />
+    <list default="true" id="8df8362f-08c0-4913-9940-8d59947de2ee" name="Changes" comment="Add Leetcode problem 49 Group Anagram&#10;&#10;Memory Usage: 46.94 MB&#10;Runtime: 6 ms">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays_hashing/TopKFrequent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrays_hashing/TopKFrequentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +49,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.GroupAnagramTest">
-    <configuration name="ContainsDuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JCrackingCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays_hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrays_hashing" />
-      <option name="MAIN_CLASS_NAME" value="arrays_hashing.ContainsDuplicateTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TopKFrequentTest">
     <configuration name="GroupAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JCrackingCode" />
       <extension name="coverage">
@@ -81,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopKFrequentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JCrackingCode" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +74,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrays_hashing" />
-      <option name="MAIN_CLASS_NAME" value="arrays_hashing.TwoSumTest" />
+      <option name="MAIN_CLASS_NAME" value="arrays_hashing.TopKFrequentTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopKFrequentTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JCrackingCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays_hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrays_hashing" />
+      <option name="MAIN_CLASS_NAME" value="arrays_hashing.TopKFrequentTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopKFrequentTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JCrackingCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays_hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrays_hashing" />
+      <option name="MAIN_CLASS_NAME" value="arrays_hashing.TopKFrequentTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,28 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JCrackingCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays_hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrays_hashing" />
-      <option name="MAIN_CLASS_NAME" value="arrays_hashing.ValidAnagramTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TopKFrequentTest" />
+        <item itemvalue="JUnit.TopKFrequentTest.test3" />
+        <item itemvalue="JUnit.TopKFrequentTest.test1" />
         <item itemvalue="JUnit.GroupAnagramTest" />
         <item itemvalue="JUnit.TwoSumTest.test4" />
-        <item itemvalue="JUnit.TwoSumTest" />
-        <item itemvalue="JUnit.ValidAnagramTest" />
-        <item itemvalue="JUnit.ContainsDuplicateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696519881704</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Leetcode problem 49 Group Anagram&#10;&#10;Memory Usage: 46.94 MB&#10;Runtime: 6 ms">
+      <option name="closed" value="true" />
+      <created>1696524595751</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696524595751</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +208,8 @@
     <MESSAGE value="Add Leetcode problem 242 Valid Anagram&#10;&#10;Memory Usage: 43.3 MB&#10;Runtime: 3 ms" />
     <MESSAGE value="Add Leetcode problem 1 Two Sum&#10;&#10;Memory Usage: 42.8 MB&#10;Runtime: 50 ms" />
     <MESSAGE value="Review Leetcode problem 1 Two Sum&#10;&#10;Memory Usage: 32.46 MB&#10;Runtime: 1 ms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Review Leetcode problem 1 Two Sum&#10;&#10;Memory Usage: 32.46 MB&#10;Runtime: 1 ms" />
+    <MESSAGE value="Add Leetcode problem 49 Group Anagram&#10;&#10;Memory Usage: 46.94 MB&#10;Runtime: 6 ms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Leetcode problem 49 Group Anagram&#10;&#10;Memory Usage: 46.94 MB&#10;Runtime: 6 ms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
