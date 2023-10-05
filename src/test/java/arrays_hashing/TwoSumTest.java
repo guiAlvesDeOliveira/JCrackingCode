@@ -25,4 +25,12 @@ class TwoSumTest {
         int[] expected = new int[]{1,2};
         assertArrayEquals(expected, validator.twoSum(nums, 6));
     }
+
+    @Test
+    void test4(){
+        TwoSum validator = new TwoSum();
+        int[] nums = new int[]{1,5,3,4};
+        int[] expected = new int[]{2,3};
+        assertArrayEquals(expected, validator.twoSum(nums, 7));
+    }
 }
